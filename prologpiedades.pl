@@ -74,8 +74,8 @@ valorDe(Propiedad,Valor):-
 generarPropiedades(UnasPropiedades):-
     findall(Propiedad,vive(_,Propiedad),UnasPropiedades).
 
-
-
+%el punto 4 devuelve el resto a un cierto conjunto de propeidades y dinero, durante el recuperatorio se dijo que debian ser propiedades.
+% y la lista de propiedades no es inversible, solo el resto lo es.
 
 %podemosComprar(UnasPropiedades,CantPlata,Resto):-
 %    generarPropiedades(UnasPropiedades),
